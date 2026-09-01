@@ -16,13 +16,13 @@
 
 export const profile = {
   /** Your name as you want it to appear everywhere. */
-  displayName: "Your Name",
+  displayName: "Kayleigh Dolan",
 
   /** Your UD email — must match the one you signed into the course with. */
-  email: "you@udel.edu",
+  email: "khdolan@udel.edu",
 
   /** Where you're from. Shows on your roster card and /about. */
-  hometown: "Newark, Delaware",
+  hometown: "Saugerties, New York",
 
   /**
    * 2 to 4 fun facts (the grader checks the count!). Real ones: they're
@@ -65,5 +65,5 @@ export const profile = {
    * verify you have ≥ 5 commits spread over days (not one bulk dump).
    * Example: "https://github.com/your-username/your-repo"
    */
-  repoUrl: "https://github.com/your-username/your-repo",
+  repoUrl: "https://github.com/kayleighdolan/my-site",
 };
