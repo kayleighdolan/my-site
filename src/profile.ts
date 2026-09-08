@@ -52,13 +52,13 @@ export const profile = {
   rosterVisibility: "class" as "class" | "professor-only",
 
   /** A one-line tagline for your home page. Make it yours. */
-  tagline: "Learning to use analytics to solve problems and make decisions."
+  tagline: "Learning to use analytics to solve problems and make decisions.",
 
   /**
    * A short bio for your home page: two or three sentences, written like
    * a person, not a resume. What are you studying? What do you care about?
    */
-  bio: "I'm a senior at UD studying Business Analytics with a concentration in Marketing and a minor in AI applications for business. I love swimming, walking, and hanging out with friends and family."
+  bio: "I'm a senior at UD studying Business Analytics with a concentration in Marketing and a minor in AI applications for business. I love swimming, walking, and hanging out with friends and family.",
 
   /**
    * Your GitHub repo URL. The course platform reads this from /api/health to
