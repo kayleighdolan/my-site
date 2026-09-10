@@ -30,7 +30,8 @@ export const profile = {
    */
   funFacts: [
     "I have traveled to 4 countries in the past year.",
-    "I love Paris."
+    "I love Paris!",
+    "I worked as a Climate Corps Intern this summer."
   ],
 
   /** One decision you're proud of, in a sentence. */
@@ -58,7 +59,7 @@ export const profile = {
    * A short bio for your home page: two or three sentences, written like
    * a person, not a resume. What are you studying? What do you care about?
    */
-  bio: "I'm a senior at UD studying Business Analytics with a concentration in Marketing and a minor in AI applications for business. I love swimming, walking, and hanging out with friends and family.",
+  bio: "I'm a senior at UD studying Business Analytics with a concentration in Marketing and a minor in AI applications for business. I love swimming, walking, cooking, and hanging out with friends and family.",
 
   /**
    * Your GitHub repo URL. The course platform reads this from /api/health to
