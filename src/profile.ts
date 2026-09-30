@@ -13,6 +13,7 @@
  *
  * Fill in every field, replace the placeholder photo, and you're done.
  */
+export const paletteChoice = "orchard"
 
 export const profile = {
   /** Your name as you want it to appear everywhere. */
