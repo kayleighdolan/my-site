@@ -49,7 +49,15 @@ function classifyStructure(
   naive: number,
   stratified: number
 ): Structure | null {
-  return null;
+  if (facts.zTiming === "before-x" && facts.zInfluencesX) {
+  return "fork";
+}
+const naiveReal = Math.abs(naive) >= VISIBLE;
+const stratReal = Math.abs(stratified) >= VISIBLE;
+if(naiveReal && !stratReal)return "pipe";
+if(!naiveReal && stratReal) return "collider";
+return "direct";
+
 }
 
 export async function POST(req: Request) {
